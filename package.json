@@ -7,6 +7,10 @@
       "scripts": {
   "start": "node server.js"
 },
+    "engines": {
+    "node": ">= 6.9.4",
+    "npm": ">= 4.4.0"
+  },
     "dependencies": {
         "express": "latest",
         "request": "latest",
