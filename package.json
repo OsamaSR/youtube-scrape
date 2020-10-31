@@ -15,7 +15,8 @@
         "express": "latest",
         "request": "latest",
         "cheerio": "latest",
-        "cors": "latest"
+            "cors": "^2.8.5"
+
 
     }
 }
