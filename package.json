@@ -14,8 +14,7 @@
     "dependencies": {
         "express": "latest",
         "request": "latest",
-        "cheerio": "latest",
-        "cors": "2.8.5"
+        "cheerio": "latest"
 
 
     }
