@@ -1,11 +1,11 @@
 const express = require('express');
 const scraper = require('./scraper');
 //Osama
-//var cors = require('cors');
+var cors = require('cors');
 
 const app = express();
 //Osama
-//app.use(cors());
+app.use(cors());
 //Home page
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/index.html");
